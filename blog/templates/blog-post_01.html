@@ -1,0 +1,72 @@
+{% extends 'layout.html' %}
+{% block title %}Blog Post 1{% endblock %}
+{% block content %}
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <!-- Page Heading/Breadcrumbs -->
+      <h2 class="mt-4 mb-3">jkfs
+        <small>Blog by
+          <a href="/about">Jeffrey</a>
+        </small>
+      </h2>
+
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="/">Home</a>
+        </li>
+        <li class="breadcrumb-item">
+          <a href="/blog">Blog</a>
+        </li>
+        <li class="breadcrumb-item active">Post 01</li>
+      </ol>
+
+      <div class="row">
+
+        <!-- Post Content Column -->
+        <div class="col-lg-12">
+
+          <!-- Preview Image -->
+          <img class="img-fluid rounded" src="/static/img/blog/the_blog.JPG" alt="">
+
+          <hr>
+
+          <!-- Date/Time -->
+          <p>Posted on February 2, 2018</p>
+
+          <hr>
+
+          <!-- Post Content -->
+          <p class="lead">"This is a blog!"</p>
+
+          <p>A blog for the ensemble of jkfs.</p>
+
+          <hr>
+
+          <!-- Comments Form -->
+          <div class="card my-4">
+            <h5 class="card-header">Leave a Comment:</h5>
+            <div class="card-body">
+              <form>
+                <div class="form-group">
+                  <textarea class="form-control" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+
+
+        </div>
+
+      </div>
+      <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+{% endblock %}
